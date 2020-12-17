@@ -1,18 +1,18 @@
 data:extend({
     {
         type = "technology",
-        name = "rocketdamagea-1",
-        icon_size = 202,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
+        name = "laserdmga-1",
+        icon_size = 500,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-damage.png",
         effects =
         {
           {
             type = "ammo-damage",
-            ammo_category = "rocket",
+            ammo_category = "laser",
             modifier = 0.1
           }
         },
-        prerequisites = {"rocketry"},
+        prerequisites = {"laser-turrets"},
         unit =
         {
           count = 100,
@@ -29,18 +29,18 @@ data:extend({
       },
       {
         type = "technology",
-        name = "rocketdamagea-2",
-        icon_size = 202,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
+        name = "laserdmga-2",
+        icon_size = 500,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-damage.png",
         effects =
         {
           {
             type = "ammo-damage",
-            ammo_category = "laser-turret",
+            ammo_category = "laser",
             modifier = 0.1
           }
         },
-        prerequisites = {"rocketdamagea-1"},
+        prerequisites = {"laserdmga-1"},
         unit =
         {
           count = 200,
@@ -57,18 +57,18 @@ data:extend({
       },
       {
         type = "technology",
-        name = "rocketdamageb-1",
-        icon_size = 202,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
+        name = "laserdmgb-1",
+        icon_size = 500,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-damage.png",
         effects =
         {
           {
             type = "ammo-damage",
-            ammo_category = "laser-turret",
+            ammo_category = "laser",
             modifier = 0.2
           }
         },
-        prerequisites = {"rocketdamagea-2"},
+        prerequisites = {"laserdmga-2"},
         unit =
         {
           count = 450,
@@ -85,18 +85,18 @@ data:extend({
       },
       {
         type = "technology",
-        name = "rocketdamageb-2",
-        icon_size = 202,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
+        name = "laserdmgb-2",
+        icon_size = 500,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-damage.png",
         effects =
         {
           {
             type = "ammo-damage",
-            ammo_category = "laser-turret",
+            ammo_category = "laser",
             modifier = 0.2
           }
         },
-        prerequisites = {"rocketdamageb-1"},
+        prerequisites = {"laserdmgb-1"},
         unit =
         {
           count = 600,
@@ -113,21 +113,21 @@ data:extend({
       },
       {
         type = "technology",
-        name = "rocketdamagec-1",
-        icon_size = 202,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
+        name = "laserdmgc-1",
+        icon_size = 500,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-damage.png",
         effects =
         {
           {
             type = "ammo-damage",
-            ammo_category = "laser-turret",
+            ammo_category = "laser",
             modifier = 0.4
           }
         },
-        prerequisites = {"rocketdamageb-2"},
+        prerequisites = {"laserdmgb-2"},
         unit =
         {
-          count = 202,
+          count = 500,
           ingredients =
           {
             {"automation-science-pack", 1},
@@ -142,18 +142,18 @@ data:extend({
       },
       {
         type = "technology",
-        name = "rocketdamagec-2",
-        icon_size = 202,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
+        name = "laserdmgc-2",
+        icon_size = 500,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-damage.png",
         effects =
         {
           {
             type = "ammo-damage",
-            ammo_category = "laser-turret",
+            ammo_category = "laser",
             modifier = 0.5
           }
         },
-        prerequisites = {"rocketdamagec-1"},
+        prerequisites = {"laserdmgc-1"},
         unit =
         {
           count = 800,

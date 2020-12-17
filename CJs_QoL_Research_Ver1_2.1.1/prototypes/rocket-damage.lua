@@ -1,18 +1,18 @@
 data:extend({
     {
         type = "technology",
-        name = "laserspeeda-1",
-        icon_size = 677,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-speed.png",
+        name = "rocketdamagea-1",
+        icon_size = 202,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
         effects =
         {
           {
-            type = "gun-speed",
-            ammo_category = "laser-turret",
+            type = "ammo-damage",
+            ammo_category = "rocket",
             modifier = 0.1
           }
         },
-        prerequisites = {"laser-turrets"},
+        prerequisites = {"rocketry"},
         unit =
         {
           count = 100,
@@ -25,25 +25,25 @@ data:extend({
           time = 30
         },
         upgrade = true,
-        order = "e-n-h"
+        order = "e-n-a"
       },
       {
         type = "technology",
-        name = "laserspeeda-2",
-        icon_size = 677,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-speed.png",
+        name = "rocketdamagea-2",
+        icon_size = 202,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
         effects =
         {
           {
-            type = "gun-speed",
-            ammo_category = "laser-turret",
+            type = "ammo-damage",
+            ammo_category = "rocket",
             modifier = 0.1
           }
         },
-        prerequisites = {"laserspeeda-1"},
+        prerequisites = {"rocketdamagea-1"},
         unit =
         {
-          count = 250,
+          count = 200,
           ingredients =
           {
             {"automation-science-pack", 1},
@@ -53,25 +53,25 @@ data:extend({
           time = 30
         },
         upgrade = true,
-        order = "e-n-h"
+        order = "e-n-a"
       },
       {
         type = "technology",
-        name = "laserspeedb-1",
-        icon_size = 677,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-speed.png",
+        name = "rocketdamageb-1",
+        icon_size = 202,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
         effects =
         {
           {
-            type = "gun-speed",
-            ammo_category = "laser-turret",
+            type = "ammo-damage",
+            ammo_category = "rocket",
             modifier = 0.2
           }
         },
-        prerequisites = {"laserspeeda-2"},
+        prerequisites = {"rocketdamagea-2"},
         unit =
         {
-          count = 500,
+          count = 450,
           ingredients =
           {
             {"automation-science-pack", 1},
@@ -81,25 +81,25 @@ data:extend({
           time = 30
         },
         upgrade = true,
-        order = "e-n-h"
+        order = "e-n-a"
       },
       {
         type = "technology",
-        name = "laserspeedb-2",
-        icon_size = 677,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-speed.png",
+        name = "rocketdamageb-2",
+        icon_size = 202,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
         effects =
         {
           {
-            type = "gun-speed",
-            ammo_category = "laser-turret",
+            type = "ammo-damage",
+            ammo_category = "rocket",
             modifier = 0.2
           }
         },
-        prerequisites = {"laserspeedb-1"},
+        prerequisites = {"rocketdamageb-1"},
         unit =
         {
-          count = 750,
+          count = 600,
           ingredients =
           {
             {"automation-science-pack", 1},
@@ -109,25 +109,25 @@ data:extend({
           time = 30
         },
         upgrade = true,
-        order = "e-n-h"
+        order = "e-n-a"
       },
       {
         type = "technology",
-        name = "laserspeedc-1",
-        icon_size = 677,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-speed.png",
+        name = "rocketdamagec-1",
+        icon_size = 202,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
         effects =
         {
           {
-            type = "gun-speed",
-            ammo_category = "laser-turret",
+            type = "ammo-damage",
+            ammo_category = "rocket",
             modifier = 0.4
           }
         },
-        prerequisites = {"laserspeedb-2"},
+        prerequisites = {"rocketdamageb-2"},
         unit =
         {
-          count = 700,
+          count = 202,
           ingredients =
           {
             {"automation-science-pack", 1},
@@ -138,25 +138,25 @@ data:extend({
           time = 30
         },
         upgrade = true,
-        order = "e-n-h"
+        order = "e-n-a"
       },
       {
         type = "technology",
-        name = "laserspeedc-2",
-        icon_size = 677,
-        icon = "__CJs_QoL_Research_Ver1__/graphics/laser-turret-speed.png",
+        name = "rocketdamagec-2",
+        icon_size = 202,
+        icon = "__CJs_QoL_Research_Ver1__/graphics/rocket-launcher.png",
         effects =
         {
           {
-            type = "gun-speed",
-            ammo_category = "laser-turret",
+            type = "ammo-damage",
+            ammo_category = "rocket",
             modifier = 0.5
           }
         },
-        prerequisites = {"laserspeedc-1"},
+        prerequisites = {"rocketdamagec-1"},
         unit =
         {
-          count = 1000,
+          count = 800,
           ingredients =
           {
             {"automation-science-pack", 1},
@@ -167,6 +167,6 @@ data:extend({
           time = 30
         },
         upgrade = true,
-        order = "e-n-h"
+        order = "e-n-a"
       },
-    })
+})
